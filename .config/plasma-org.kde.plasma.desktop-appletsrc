@@ -87,7 +87,7 @@ plugin=org.kde.plasma.quicklaunch
 PreloadWeight=0
 
 [Containments][1][Applets][30][Configuration][General]
-launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/thunderbird.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/code.desktop
+launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/thunderbird.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/Zoom.desktop
 
 [Containments][1][Applets][31]
 immutability=1
@@ -180,7 +180,7 @@ DialogWidth=1396
 PreloadWeight=0
 
 [Containments][1][General]
-ItemsGeometries=Applet-21:1584,16,352,128,0;Applet-22:2672,16,96,128,0;Applet-25:16,976,656,384,0;Applet-27:2576,16,96,128,0;Applet-28:3264,16,112,128,0;Applet-29:2768,16,384,128,0;Applet-30:1344,1216,800,160,0;Applet-31:3152,16,112,128,0;Applet-33:16,16,464,368,0;Applet-35:2976,656,368,288,0;Applet-36:496,16,320,400,0;
+ItemsGeometries=Applet-21:1568,16,336,128,0;Applet-22:2672,16,96,128,0;Applet-25:16,976,656,384,0;Applet-27:2576,16,96,128,0;Applet-28:3264,16,112,128,0;Applet-29:2768,16,384,128,0;Applet-30:1344,1216,800,160,0;Applet-31:3152,16,112,128,0;Applet-33:16,16,464,368,0;Applet-35:2976,656,368,288,0;Applet-36:496,16,320,400,0;
 ToolBoxButtonState=topright
 ToolBoxButtonX=3404
 pressToMoveHelp=false
@@ -236,7 +236,7 @@ plugin=org.kde.plasma.quicklaunch
 PreloadWeight=0
 
 [Containments][2][Applets][40][Configuration][General]
-launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/org.kde.spectacle.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/thunderbird.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///home/ykb5060/.local/share/applications/zotero.desktop
+launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/org.kde.spectacle.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/thunderbird.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///home/ykb5060/.local/share/applications/zotero.desktop,file:///usr/share/applications/Zoom.desktop
 
 [Containments][2][Applets][41]
 immutability=1

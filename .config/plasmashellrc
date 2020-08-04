@@ -1,0 +1,32 @@
+[Containments][42][General]
+ToolBoxButtonState=topright
+ToolBoxButtonX=3404
+
+[DownloadDialog Settings]
+Height 1440=948
+Width 3440=1281
+
+[General]
+Number of Actions=0
+
+[Open-with settings]
+CompletionMode=1
+History=zoom,zote,zoter,dol,code,slack,spotif,spoti,thunder,sign,thun,spe,fire
+
+[PlasmaViews][Panel 2]
+alignment=1
+panelVisibility=0
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=36
+
+[PlasmaViews][Panel 2][Horizontal3440]
+thickness=46
+
+[ScreenConnectors]
+0=HDMI-2
+1=eDP-1
+2=:0.0
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/desktop-base.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
