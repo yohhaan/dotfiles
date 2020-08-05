@@ -2,5 +2,5 @@
 	path = .oh-my-zsh
 	url = git@github.com:ohmyzsh/ohmyzsh.git
 [submodule "/home/ykb5060/.config/kde-plasmoids-workaround"]
-	path = /home/ykb5060/.config/kde-plasmoids-workaround
+	path = .config/kde-plasmoids-workaround
 	url = git@github.com:yohhaan/kde-plasmoids-workaround.git
