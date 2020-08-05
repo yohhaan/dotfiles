@@ -79,6 +79,8 @@ plugins=(git docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.launch_docker
+source ~/.config/kde-plasmoids-workaround/kde-plasmoids-workaround
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
