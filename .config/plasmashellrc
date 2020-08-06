@@ -9,9 +9,17 @@ Width 3440=1281
 [General]
 Number of Actions=0
 
+[KPropertiesDialog]
+Height 1440=507
+Width 3440=472
+
 [Open-with settings]
 CompletionMode=1
 History=zoom,zote,zoter,dol,code,slack,spotif,spoti,thunder,sign,thun,spe,fire
+
+[PlasmaRunnerManager]
+LaunchCounts=
+pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 2]
 alignment=1
