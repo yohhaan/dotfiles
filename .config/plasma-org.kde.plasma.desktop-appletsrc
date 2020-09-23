@@ -20,14 +20,14 @@ immutability=1
 plugin=org.kde.plasma.betterinlineclock
 
 [Containments][1][Applets][21][Configuration]
-PreloadWeight=0
+PreloadWeight=7
 
 [Containments][1][Applets][22]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][1][Applets][22][Configuration]
-PreloadWeight=7
+PreloadWeight=0
 
 [Containments][1][Applets][25]
 activityId=
@@ -77,7 +77,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller_plus
 
 [Containments][1][Applets][29][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][1][Applets][30]
 immutability=1
@@ -181,7 +181,7 @@ DialogWidth=1396
 PreloadWeight=0
 
 [Containments][1][General]
-ItemsGeometries=Applet-21:1472,16,336,128,0;Applet-22:2672,16,96,128,0;Applet-25:16,976,656,384,0;Applet-27:2576,16,96,128,0;Applet-28:3264,16,112,128,0;Applet-29:2768,16,384,128,0;Applet-30:1344,1216,800,160,0;Applet-31:3152,16,112,128,0;Applet-33:16,16,464,368,0;Applet-35:2976,496,368,448,0;Applet-36:496,16,320,400,0;
+ItemsGeometries=Applet-21:1488,16,304,128,0;Applet-22:2672,16,96,128,0;Applet-25:16,976,656,384,0;Applet-27:2576,16,96,128,0;Applet-28:3264,16,112,128,0;Applet-29:2768,16,384,128,0;Applet-30:1344,1216,800,160,0;Applet-31:3152,16,112,128,0;Applet-33:16,16,464,368,0;Applet-35:2976,496,368,448,0;Applet-36:496,16,320,400,0;
 ToolBoxButtonState=topright
 ToolBoxButtonX=3404
 pressToMoveHelp=false
@@ -204,11 +204,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=22
-
-[Containments][2][Applets][3][Configuration][ConfigDialog]
-DialogHeight=720
-DialogWidth=960
+PreloadWeight=0
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -265,7 +261,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=44
+PreloadWeight=0
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -306,7 +302,7 @@ DialogHeight=720
 DialogWidth=960
 
 [Containments][43][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][43][General]
 ToolBoxButtonState=topright
@@ -329,7 +325,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][7][Applets][11]
 immutability=1
@@ -343,7 +339,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][7][Applets][13][Configuration]
 PreloadWeight=42
@@ -353,21 +349,21 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][14][Configuration]
-PreloadWeight=0
+PreloadWeight=4
 
 [Containments][7][Applets][15]
 immutability=1
 plugin=org.kde.discovernotifier
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][7][Applets][16]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][16][Configuration]
-PreloadWeight=0
+PreloadWeight=7
 
 [Containments][7][Applets][17]
 immutability=1
@@ -381,14 +377,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=9
+PreloadWeight=12
 
 [Containments][7][Applets][19]
 immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=0
+PreloadWeight=7
 
 [Containments][7][Applets][42]
 immutability=1
@@ -405,7 +401,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][9][Configuration]
-PreloadWeight=5
+PreloadWeight=4
 
 [Containments][7][ConfigDialog]
 DialogHeight=1123
