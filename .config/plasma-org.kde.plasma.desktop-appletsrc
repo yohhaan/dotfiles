@@ -186,7 +186,7 @@ DialogWidth=1396
 PreloadWeight=0
 
 [Containments][1][General]
-ItemsGeometries=Applet-21:816,16,304,128,0;Applet-22:1728,16,80,128,0;Applet-25:16,720,464,304,0;Applet-27:1232,16,80,128,0;Applet-28:1808,16,80,128,0;Applet-29:1392,16,336,128,0;Applet-30:544,864,800,160,0;Applet-31:1312,16,80,128,0;Applet-33:0,16,448,368,0;Applet-35:1552,496,368,384,0;Applet-36:464,16,320,384,0;
+ItemsGeometries=Applet-21:800,16,336,128,0;Applet-22:1728,16,80,128,0;Applet-25:16,720,464,304,0;Applet-27:1232,16,80,128,0;Applet-28:1808,16,80,128,0;Applet-29:1392,16,336,128,0;Applet-30:544,864,800,160,0;Applet-31:1312,16,80,128,0;Applet-33:0,16,448,368,0;Applet-35:1552,496,368,384,0;Applet-36:464,16,320,384,0;
 ToolBoxButtonState=topright
 ToolBoxButtonX=1884
 pressToMoveHelp=false
@@ -307,7 +307,7 @@ DialogHeight=720
 DialogWidth=960
 
 [Containments][43][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][43][General]
 ToolBoxButtonState=topright
@@ -382,14 +382,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=0
+PreloadWeight=4
 
 [Containments][7][Applets][19]
 immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=6
+PreloadWeight=0
 
 [Containments][7][Applets][42]
 immutability=1

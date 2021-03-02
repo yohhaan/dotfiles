@@ -1,3 +1,10 @@
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhYAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAABHAAAAAEAAAAAAAAD6AAAAABk
+
+[ConfigDialog]
+Height 1440=592
+Width 3440=696
+
 [Containments][42][General]
 ToolBoxButtonState=topright
 ToolBoxButtonX=3404
@@ -5,17 +12,25 @@ ToolBoxButtonX=3404
 [DownloadDialog Settings]
 Height 1440=948
 Width 3440=1281
+Window-Maximized 1080x1920=true
 
 [General]
 Number of Actions=0
+
+[KFileDialog Settings]
+Recent Files[$e]=DigiCert_Global_Root_CA.der,file:$HOME/Downloads/DigiCert_Global_Root_CA.der
+Recent URLs[$e]=file:$HOME/Downloads/
 
 [KPropertiesDialog]
 Height 1440=507
 Width 3440=472
 
+[Notification Messages]
+really_clear_history=true
+
 [Open-with settings]
 CompletionMode=1
-History=zoom,zote,zoter,dol,code,slack,spotif,spoti,thunder,sign,thun,spe,fire
+History=dis,zoom,zote,zoter,dol,code,slack,spotif,spoti,thunder,sign,thun,spe,fire
 
 [PlasmaRunnerManager]
 LaunchCounts=
@@ -23,10 +38,16 @@ pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recen
 
 [PlasmaViews][Panel 2]
 alignment=1
-panelVisibility=0
+panelVisibility=1
+
+[PlasmaViews][Panel 2][Horizontal1360]
+thickness=30
 
 [PlasmaViews][Panel 2][Horizontal1920]
-thickness=36
+thickness=48
+
+[PlasmaViews][Panel 2][Horizontal2560]
+thickness=30
 
 [PlasmaViews][Panel 2][Horizontal3440]
 thickness=48
@@ -36,8 +57,8 @@ thickness=30
 
 [ScreenConnectors]
 0=eDP-1
-1=:0.0
-2=HDMI-2
+1=HDMI-2
+2=:0.0
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/desktop-base.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
