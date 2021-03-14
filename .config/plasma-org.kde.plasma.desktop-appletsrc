@@ -266,7 +266,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=0
+PreloadWeight=91
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -307,7 +307,7 @@ DialogHeight=720
 DialogWidth=960
 
 [Containments][43][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][43][General]
 ToolBoxButtonState=topright
@@ -315,6 +315,15 @@ ToolBoxButtonX=3404
 
 [Containments][43][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/contents/images/3840x2160.png
+
+[Containments][44]
+activityId=f6d8e950-c54f-471d-8ff7-a5d077189982
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [Containments][7]
 activityId=
@@ -375,21 +384,21 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=0
+PreloadWeight=16
 
 [Containments][7][Applets][18]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=4
+PreloadWeight=0
 
 [Containments][7][Applets][19]
 immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][7][Applets][42]
 immutability=1
@@ -406,7 +415,11 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][9][Configuration]
-PreloadWeight=0
+PreloadWeight=10
+
+[Containments][7][Applets][9][Configuration][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
 
 [Containments][7][ConfigDialog]
 DialogHeight=1123
