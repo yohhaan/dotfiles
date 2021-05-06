@@ -7,6 +7,9 @@ gpg-connect-agent updatestartuptty /bye > /dev/null
 #Modification default delay copy password for pass
 export PASSWORD_STORE_CLIP_TIME="20"
 
+#GO
+export PATH="${PATH}:/usr/local/go/bin"
+
 # Gurobi Optimizer
 export GUROBI_HOME="/opt/gurobi911/linux64"
 export PATH="${PATH}:${GUROBI_HOME}/bin"
