@@ -20,7 +20,11 @@ immutability=1
 plugin=org.kde.plasma.betterinlineclock
 
 [Containments][1][Applets][21][Configuration]
-PreloadWeight=2
+PreloadWeight=0
+
+[Containments][1][Applets][21][Configuration][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
 
 [Containments][1][Applets][22]
 immutability=1
@@ -53,6 +57,7 @@ DialogHeight=720
 DialogWidth=960
 
 [Containments][1][Applets][25][Configuration][General]
+iconSize=3
 url=file:///home/ykb5060
 
 [Containments][1][Applets][27]
@@ -77,7 +82,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller_plus
 
 [Containments][1][Applets][29][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][1][Applets][30]
 immutability=1
@@ -181,9 +186,9 @@ DialogWidth=1396
 PreloadWeight=0
 
 [Containments][1][General]
-ItemsGeometries=Applet-21:1776,16,288,176,0;Applet-25:32,1072,768,480,0;Applet-27:2736,16,144,176,0;Applet-28:3616,16,144,176,0;Applet-29:3008,16,464,176,0;Applet-30:1360,1328,1088,224,0;Applet-31:3472,16,144,176,0;Applet-33:16,16,576,368,0;Applet-35:3328,496,416,624,0;Applet-36:624,0,336,416,0;Applet-22:2880,16,128,176,0;
+ItemsGeometries=Applet-21:800,16,320,128,0;Applet-22:1728,16,80,128,0;Applet-25:16,720,464,304,0;Applet-27:1232,16,80,128,0;Applet-28:1808,16,80,128,0;Applet-29:1392,16,336,128,0;Applet-30:544,864,800,160,0;Applet-31:1312,16,80,128,0;Applet-33:0,16,448,368,0;Applet-35:1552,496,368,384,0;Applet-36:464,16,320,384,0;
 ToolBoxButtonState=topright
-ToolBoxButtonX=3404
+ToolBoxButtonX=1884
 pressToMoveHelp=false
 
 [Containments][1][Wallpaper][org.kde.image][General]
@@ -204,7 +209,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=5
+PreloadWeight=44
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -261,7 +266,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=63
+PreloadWeight=100
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -269,7 +274,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][2][Applets][8][Configuration][ConfigDialog]
 DialogHeight=720
@@ -332,7 +337,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=0
+PreloadWeight=100
 
 [Containments][7][Applets][12]
 immutability=1
@@ -349,42 +354,42 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][14][Configuration]
-PreloadWeight=4
+PreloadWeight=5
 
 [Containments][7][Applets][15]
 immutability=1
 plugin=org.kde.discovernotifier
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=7
+PreloadWeight=0
 
 [Containments][7][Applets][16]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][16][Configuration]
-PreloadWeight=7
+PreloadWeight=0
 
 [Containments][7][Applets][17]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=0
+PreloadWeight=17
 
 [Containments][7][Applets][18]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=11
+PreloadWeight=0
 
 [Containments][7][Applets][19]
 immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=17
+PreloadWeight=0
 
 [Containments][7][Applets][42]
 immutability=1
@@ -401,7 +406,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][9][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][7][ConfigDialog]
 DialogHeight=1123
@@ -416,14 +421,11 @@ hiddenItems=kaccessibleapp
 knownItems=org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.discovernotifier,org.kde.plasma.mediacontroller_plus
 shownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.kscreen
 
-[Containments2Appletsts][30][Configuration][General]
-launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/thunderbird.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/Zoom.desktop
-
 [Containments2Appletsts][40][Configuration][General]
 launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/org.kde.spectacle.desktop
 
 [General]
-immutability=1
+immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
