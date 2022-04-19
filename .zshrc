@@ -7,8 +7,20 @@ gpg-connect-agent updatestartuptty /bye > /dev/null
 #Modification default delay copy password for pass
 export PASSWORD_STORE_CLIP_TIME="20"
 
+#Language Output Terminal
+export LANG=en_US.utf-8
+export LC_ALL=en_US.utf-8
 #GO
 export PATH="${PATH}:/usr/local/go/bin"
+
+#VPN
+export PATH="${PATH}:/home/ykb5060/.local/bin"
+alias vpncse="sudo openconnect --user ykb5060 https://vpn.cse.psu.edu/SIISADMIN"
+alias vpninternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff.ig.secure-connect.psu.edu"
+alias vpnexternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff-unmanaged.eg.secure-connect.psu.edu"
+
+#Backup to golden snitch
+alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos yohan@10.0.0.128:/media/yohan/HDD/backup_seeker"
 
 # Gurobi Optimizer
 export GUROBI_HOME="/opt/gurobi911/linux64"
@@ -90,6 +102,7 @@ plugins=(git docker docker-compose pass sudo screen colored-man-pages)
 source $ZSH/oh-my-zsh.sh
 source ~/.launch_docker
 source ~/.config/kde-plasmoids-workaround/kde-plasmoids-workaround
+source ~/.krohnkite 
 
 # User configuration
 

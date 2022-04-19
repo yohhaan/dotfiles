@@ -4,3 +4,7 @@
 	signingkey = 0x231A4FD3ABED47C8
 [commit]
 	gpgsign = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
