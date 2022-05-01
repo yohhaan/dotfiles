@@ -18,11 +18,13 @@ Window-Maximized 1080x1920=true
 Number of Actions=0
 
 [KFileDialog Settings]
-Recent Files[$e]=DigiCert_Global_Root_CA.der,file:$HOME/Downloads/cse600_form.pdf,file:///opt/firefox/firefox/browser/chrome/icons/default/default128.png
-Recent URLs[$e]=file:///opt/firefox/firefox/browser/chrome/icons/default/,file:$HOME/Downloads/
+Recent Files[$e]=DigiCert_Global_Root_CA.der,file:///opt/zotero/chrome/icons/default/default256.png,file:///opt/zotero/chrome/icons/default/default16.png,file:///opt/firefox/firefox/browser/chrome/icons/default/default128.png
+Recent URLs[$e]=file:///opt/firefox/firefox/browser/chrome/icons/default/,file:$HOME/Downloads/,file:///opt/zotero/chrome/icons/default/,file:$HOME/
 listViewIconSize=16
 
 [KPropertiesDialog]
+DP-2 Height 1600=494
+DP-2 Width 3840=436
 HDMI-2 Height 1440=500
 HDMI-2 Width 3440=494
 Height 1080=507
@@ -67,9 +69,10 @@ alignment=132
 thickness=48
 
 [ScreenConnectors]
-0=DP-2
+0=eDP-1
 1=HDMI-2
-3=eDP-1
+2=:0.0
+3=DP-2
 4=DP-1
 
 [Updates]
