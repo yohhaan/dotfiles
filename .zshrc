@@ -16,11 +16,12 @@ export PATH="${PATH}:/usr/local/go/bin"
 #VPN
 export PATH="${PATH}:/home/ykb5060/.local/bin"
 alias vpncse="sudo openconnect --user ykb5060 https://vpn.cse.psu.edu/SIISADMIN"
-alias vpninternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff.ig.secure-connect.psu.edu"
-alias vpnexternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff-unmanaged.eg.secure-connect.psu.edu"
-
+alias vpncseinternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff.ig.secure-connect.psu.edu"
+alias vpncseexternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff-unmanaged.eg.secure-connect.psu.edu"
+alias vpncs="sudo openconnect --protocol=gp --user=beugin https://compsci.vpn.wisc.edu/gateway"
+alias vpnuw="sudo openconnect --protocol=gp --user=beugin https://uwmadison.vpn.wisc.edu/gateway"
 #Backup to golden snitch
-alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos yohan@10.0.0.128:/media/yohan/HDD/backup_seeker"
+alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos yohan@192.168.1.247:/media/yohan/HDD/backup_seeker"
 
 # Gurobi Optimizer
 export GUROBI_HOME="/opt/gurobi911/linux64"
