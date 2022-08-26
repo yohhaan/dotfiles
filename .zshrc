@@ -15,7 +15,6 @@ export PATH="${PATH}:/usr/local/go/bin"
 
 #VPN
 export PATH="${PATH}:/home/ykb5060/.local/bin"
-alias vpncse="sudo openconnect --user ykb5060 https://vpn.cse.psu.edu/SIISADMIN"
 alias vpncseinternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff.ig.secure-connect.psu.edu"
 alias vpncseexternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff-unmanaged.eg.secure-connect.psu.edu"
 alias vpncs="sudo openconnect --protocol=gp --user=beugin https://compsci.vpn.wisc.edu/gateway"
