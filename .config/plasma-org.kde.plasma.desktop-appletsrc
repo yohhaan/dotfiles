@@ -288,6 +288,9 @@ ToolBoxButtonX=1428
 Image=file:///usr/share/desktop-base/joy-inksplat-theme/wallpaper/contents/images/3840x2160.svg
 SlidePaths=/usr/share/wallpapers
 
+[Containments][47][Configuration]
+PreloadWeight=42
+
 [Containments][7]
 activityId=
 formfactor=2
@@ -361,7 +364,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][7][Applets][42]
 immutability=1
@@ -378,14 +381,14 @@ immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][7][Applets][44][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][7][Applets][45]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][7][Applets][45][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][7][Applets][9]
 immutability=1
