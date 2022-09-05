@@ -27,9 +27,6 @@ History=fire,dis,zoom,zote,zoter,dol,code,slack,spotif,spoti,thunder,sign,thun,s
 LaunchCounts=1 services_applications:kcm_printer_manager.desktop,1 services_obs.desktop,1 services_applications:com.obsproject.Studio.desktop,1 services_org.kde.partitionmanager.desktop
 pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recentdocuments,locations,baloosearch
 
-[PlasmaTransientsConfig]
-PreloadWeight=42
-
 [PlasmaViews][Panel 2]
 panelVisibility=1
 
@@ -55,10 +52,9 @@ alignment=132
 thickness=48
 
 [ScreenConnectors]
-0=HDMI-0
+0=eDP-1
 1=HDMI-2
 2=:0.0
-3=eDP-1
 4=DP-1
 
 [Updates]
