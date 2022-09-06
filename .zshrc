@@ -20,7 +20,7 @@ alias vpncseexternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff-unm
 alias vpncs="sudo openconnect --protocol=gp --user=beugin https://compsci.vpn.wisc.edu/gateway"
 alias vpnuw="sudo openconnect --protocol=gp --user=beugin https://uwmadison.vpn.wisc.edu/gateway"
 #Backup to golden snitch
-alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos yohan@192.168.1.247:/media/yohan/HDD/backup_seeker"
+alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos yohan@10.152.0.115:/media/yohan/HDD/backup_seeker"
 
 # Gurobi Optimizer
 export GUROBI_HOME="/opt/gurobi911/linux64"

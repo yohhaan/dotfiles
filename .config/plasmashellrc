@@ -28,6 +28,7 @@ LaunchCounts=1 services_applications:kcm_printer_manager.desktop,1 services_obs.
 pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 2]
+alignment=132
 panelVisibility=1
 
 [PlasmaViews][Panel 2][Defaults]
@@ -52,9 +53,10 @@ alignment=132
 thickness=48
 
 [ScreenConnectors]
-0=eDP-1
+0=DP-2
 1=HDMI-2
 2=:0.0
+3=eDP-1
 4=DP-1
 
 [Updates]

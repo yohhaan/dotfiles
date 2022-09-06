@@ -89,7 +89,7 @@ plugin=org.kde.plasma.quicklaunch
 PreloadWeight=0
 
 [Containments][1][Applets][30][Configuration][General]
-launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/thunderbird.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/Zoom.desktop
+launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/Zoom.desktop
 
 [Containments][1][Applets][31]
 immutability=1
@@ -239,7 +239,7 @@ plugin=org.kde.plasma.quicklaunch
 PreloadWeight=0
 
 [Containments][2][Applets][40][Configuration][General]
-launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/org.kde.spectacle.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/thunderbird.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///home/ykb5060/.local/share/applications/zotero.desktop,file:///usr/share/applications/Zoom.desktop
+launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/org.kde.spectacle.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/spotify.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///home/ykb5060/.local/share/applications/zotero.desktop,file:///usr/share/applications/Zoom.desktop
 
 [Containments][2][Applets][41]
 immutability=1
@@ -266,7 +266,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=0
+PreloadWeight=56
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -378,7 +378,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=0
+PreloadWeight=11
 
 [Containments][7][Applets][18]
 immutability=1

@@ -1,6 +1,6 @@
 [user]
-	name = yohhaan
-	email = ykb5060@psu.edu
+	name = Yohan Beugin
+	email = yohan@beugin.org
 	signingkey = 0x231A4FD3ABED47C8
 [commit]
 	gpgsign = true
@@ -8,3 +8,5 @@
 	defaultBranch = main
 [pull]
 	rebase = true
+[credential "https://git.overleaf.com"]
+	helper = "!pass perso/siislab/overleaf"
