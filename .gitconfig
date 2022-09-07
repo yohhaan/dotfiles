@@ -10,3 +10,5 @@
 	rebase = true
 [credential "https://git.overleaf.com"]
 	helper = "!pass perso/siislab/overleaf"
+[url "git@gitlab.madmcdan.net"]
+	insteadOf = git@gitlab-siis.cse.psu.edu
