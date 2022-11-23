@@ -7,7 +7,7 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometriesHorizontal=Applet-33:16,32,448,368,0;Applet-36:480,0,288,384,0;Applet-21:768,0,384,160,0;Applet-27:1312,0,80,160,0;Applet-22:1392,0,80,160,0;Applet-29:1472,0,256,160,0;Applet-31:1728,0,96,160,0;Applet-28:1824,0,96,160,0;Applet-25:16,576,592,464,0;Applet-30:640,880,704,144,0;Applet-35:1440,400,480,576,0;
+ItemGeometriesHorizontal=Applet-33:16,32,448,368,0;Applet-36:480,0,320,384,0;Applet-21:800,0,384,160,0;Applet-27:1312,0,80,160,0;Applet-22:1392,0,80,160,0;Applet-29:1472,0,256,160,0;Applet-31:1728,0,96,160,0;Applet-28:1824,0,96,160,0;Applet-25:16,576,592,464,0;Applet-30:640,880,704,144,0;Applet-35:1440,400,480,576,0;
 activityId=f6d8e950-c54f-471d-8ff7-a5d077189982
 formfactor=0
 immutability=1
@@ -155,7 +155,7 @@ showPressureInTooltip=true
 showTemperatureInCompactMode=true
 showTemperatureInTooltip=true
 showWindInTooltip=true
-source=bbcukmet|weather|State College, United States|5213681
+source=wettercom|weather|Madison, Wisconsin, US|US0WI0408;Madison
 speedUnit=9001
 temperatureUnit=6001
 updateInterval=30
@@ -266,7 +266,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=72
+PreloadWeight=76
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -378,7 +378,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=27
+PreloadWeight=0
 
 [Containments][7][Applets][18]
 immutability=1
@@ -392,7 +392,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=0
+PreloadWeight=76
 
 [Containments][7][Applets][42]
 immutability=1

@@ -147,7 +147,6 @@ plugin=org.kde.plasma.lock_logout
 
 [Containments][46][Applets][53][Configuration]
 PreloadWeight=0
-
 [Containments][46][Applets][54]
 immutability=1
 plugin=org.kde.plasma.mediacontroller_plus
@@ -216,12 +215,12 @@ showPressureInTooltip=true
 showTemperatureInCompactMode=true
 showTemperatureInTooltip=true
 showWindInTooltip=true
-source=noaa|weather|State College - University Park Airport, PA
+source=wettercom|weather|Madison, Wisconsin, US|US0WI0408;Madison
 speedUnit=9001
 temperatureUnit=6001
 updateInterval=30
 visibilityUnit=2007
-weatherServiceProviders=noaa
+weatherServiceProviders=bbcukmet,wettercom
 
 [Containments][46][Applets][58][Configuration][ConfigDialog]
 DialogHeight=540

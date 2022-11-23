@@ -155,12 +155,12 @@ showPressureInTooltip=true
 showTemperatureInCompactMode=true
 showTemperatureInTooltip=true
 showWindInTooltip=true
-source=bbcukmet|weather|State College, United States|5213681
+source=wettercom|weather|Madison, Wisconsin, US|US0WI0408;Madison
 speedUnit=9001
 temperatureUnit=6001
 updateInterval=30
 visibilityUnit=2007
-weatherServiceProviders=bbcukmet,wettercom
+weatherServiceProviders=bbcukmet,envcan,noaa,wettercom
 
 [Containments][1][Applets][36][Configuration][ConfigDialog]
 DialogHeight=720
@@ -206,7 +206,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -256,7 +256,7 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][2][Applets][46][Configuration]
-PreloadWeight=26
+PreloadWeight=10
 
 [Containments][2][Applets][46][Configuration][General]
 launchers=preferred://filemanager
@@ -266,7 +266,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=56
+PreloadWeight=69
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -274,7 +274,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=20
+PreloadWeight=0
 
 [Containments][2][Applets][8][Configuration][ConfigDialog]
 DialogHeight=720
@@ -378,7 +378,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=16
+PreloadWeight=3
 
 [Containments][7][Applets][18]
 immutability=1
@@ -392,7 +392,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=0
+PreloadWeight=11
 
 [Containments][7][Applets][42]
 immutability=1
@@ -416,7 +416,7 @@ immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][7][Applets][45][Configuration]
-PreloadWeight=2
+PreloadWeight=22
 
 [Containments][7][Applets][9]
 immutability=1

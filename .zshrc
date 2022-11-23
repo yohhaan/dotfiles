@@ -15,23 +15,17 @@ export PATH="${PATH}:/usr/local/go/bin"
 
 #VPN
 export PATH="${PATH}:/home/ykb5060/.local/bin"
-alias vpncseinternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff.ig.secure-connect.psu.edu"
-alias vpncseexternal="sudo openconnect --protocol=gp --user=ykb5060 facstaff-unmanaged.eg.secure-connect.psu.edu"
 alias vpncs="sudo openconnect --protocol=gp --user=beugin https://compsci.vpn.wisc.edu/gateway"
 alias vpnuw="sudo openconnect --protocol=gp --user=beugin https://uwmadison.vpn.wisc.edu/gateway"
 #Backup to golden snitch
 alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos yohan@10.152.0.115:/media/yohan/HDD/backup_seeker"
 
-# Gurobi Optimizer
-export GUROBI_HOME="/opt/gurobi911/linux64"
-export PATH="${PATH}:${GUROBI_HOME}/bin"
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
-export GRB_LICENSE_FILE="/opt/gurobi911/gurobi.lic"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+setopt HIST_IGNORE_ALL_DUPS
 
 # adb fastboot
 if [ -d "$HOME/Applications/adb-fastboot" ] ; then
