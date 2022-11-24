@@ -18,7 +18,7 @@ export PATH="${PATH}:/home/ykb5060/.local/bin"
 alias vpncs="sudo openconnect --protocol=gp --user=beugin https://compsci.vpn.wisc.edu/gateway"
 alias vpnuw="sudo openconnect --protocol=gp --user=beugin https://uwmadison.vpn.wisc.edu/gateway"
 #Backup to golden snitch
-alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos yohan@10.152.0.115:/media/yohan/HDD/backup_seeker"
+alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos goldensnitch:/media/yohan/HDD/backup_seeker"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
