@@ -19,6 +19,10 @@ alias vpncs="sudo openconnect --protocol=gp --user=beugin https://compsci.vpn.wi
 alias vpnuw="sudo openconnect --protocol=gp --user=beugin https://uwmadison.vpn.wisc.edu/gateway"
 alias upwg_aws="sudo wg-quick up wg_aws"
 alias downwg_aws="sudo wg-quick down wg_aws"
+alias upwg_home="sudo wg-quick up wg_home"
+alias downwg_home="sudo wg-quick down wg_home"
+
+
 #Backup to golden snitch
 alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos goldensnitch:/media/yohan/HDD/backup_seeker"
 

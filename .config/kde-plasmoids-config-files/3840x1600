@@ -7,7 +7,7 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometriesHorizontal=Applet-33:16,32,576,512,0;Applet-36:608,0,336,384,0;Applet-21:1664,0,560,192,0;Applet-27:2832,0,144,192,0;Applet-22:2976,0,144,192,0;Applet-29:3120,0,464,192,0;Applet-31:3584,0,128,192,0;Applet-28:3712,0,128,192,0;Applet-25:16,1088,704,480,0;Applet-30:1440,1296,976,256,0;Applet-35:3312,592,480,576,0;
+ItemGeometriesHorizontal=Applet-33:16,32,576,512,0;Applet-36:608,0,336,384,0;Applet-21:1664,0,560,192,0;Applet-27:2832,0,144,192,0;Applet-22:2976,0,144,192,0;Applet-29:3120,0,464,192,0;Applet-31:3584,0,128,192,0;Applet-28:3712,0,128,192,0;Applet-25:16,1088,704,480,0;Applet-30:1440,1296,976,256,0;
 activityId=f6d8e950-c54f-471d-8ff7-a5d077189982
 formfactor=0
 immutability=1
@@ -266,7 +266,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=70
+PreloadWeight=67
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -392,7 +392,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=32
+PreloadWeight=0
 
 [Containments][7][Applets][42]
 immutability=1
@@ -424,6 +424,9 @@ plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][9][Configuration]
 PreloadWeight=0
+
+[Containments][7][Applets][9][Configuration][General]
+globalMute=true
 
 [Containments][7][ConfigDialog]
 DialogHeight=1123

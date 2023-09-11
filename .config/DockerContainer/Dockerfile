@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=America/New_York
 
 RUN apt-get update && \
-    apt-get install software-properties-common git gcc make python gdb build-essential autoconf valgrind man nano curl wget -y && \
+    apt-get install software-properties-common git gcc make python3 gdb build-essential autoconf valgrind man nano curl wget -y && \
     apt-get install libtool pkg-config libcurl4-gnutls-dev libgcrypt-dev -y && \
     apt-get clean autoclean && \
     apt-get autoremove -y
