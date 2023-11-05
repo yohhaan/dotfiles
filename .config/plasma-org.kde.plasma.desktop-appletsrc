@@ -7,9 +7,9 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1920x1080=Applet-34:0,0,464,368,0;Applet-29:464,0,320,384,0;Applet-26:784,0,384,160,0;Applet-31:1200,0,96,160,0;Applet-33:1296,0,416,160,0;Applet-27:1712,0,96,160,0;Applet-35:1808,0,96,160,0;Applet-28:16,688,576,368,0;Applet-41:592,864,848,192,0;
-ItemGeometries-3440x1440=Applet-34:0,16,560,448,0;Applet-29:560,16,384,400,0;Applet-31:2656,0,96,176,0;Applet-33:2752,0,432,176,0;Applet-26:1440,0,528,160,0;Applet-27:3184,0,96,176,0;Applet-35:3280,0,144,176,0;Applet-28:16,864,784,528,0;Applet-41:1040,1200,1360,192,0;
-ItemGeometriesHorizontal=Applet-34:0,16,560,448,0;Applet-29:560,16,384,400,0;Applet-31:2656,0,96,176,0;Applet-33:2752,0,432,176,0;Applet-26:1440,0,528,160,0;Applet-27:3184,0,96,176,0;Applet-35:3280,0,144,176,0;Applet-28:16,864,784,528,0;Applet-41:1040,1200,1360,192,0;
+ItemGeometries-1920x1080=Applet-29:0,0,320,384,0;Applet-26:784,0,384,160,0;Applet-31:1200,0,96,160,0;Applet-33:1296,0,416,160,0;Applet-27:1712,0,96,160,0;Applet-35:1808,0,96,160,0;Applet-28:16,688,576,368,0;Applet-41:592,864,848,192,0;
+ItemGeometries-3440x1440=Applet-29:560,16,384,400,0;Applet-31:2656,0,96,176,0;Applet-33:2752,0,432,176,0;Applet-26:1440,0,528,160,0;Applet-27:3184,0,96,176,0;Applet-35:3280,0,144,176,0;Applet-28:16,864,784,528,0;Applet-41:1168,1200,1120,192,0;
+ItemGeometriesHorizontal=Applet-29:0,0,320,384,0;Applet-26:784,0,384,160,0;Applet-31:1200,0,96,160,0;Applet-33:1296,0,416,160,0;Applet-27:1712,0,96,160,0;Applet-35:1808,0,96,160,0;Applet-28:16,688,576,368,0;Applet-41:592,864,848,192,0;
 activityId=f6d8e950-c54f-471d-8ff7-a5d077189982
 formfactor=0
 immutability=1
@@ -80,17 +80,6 @@ plugin=org.kde.redshiftControl
 immutability=1
 plugin=org.kde.plasma.mediacontroller_plus
 
-[Containments][1][Applets][34]
-immutability=1
-plugin=org.kde.simpleMonitor
-
-[Containments][1][Applets][34][Configuration][ConfigDialog]
-DialogHeight=690
-DialogWidth=920
-
-[Containments][1][Applets][34][Configuration][General]
-bgColor=Translucent
-
 [Containments][1][Applets][35]
 immutability=1
 plugin=org.kde.plasma.lock_logout
@@ -104,7 +93,7 @@ DialogHeight=690
 DialogWidth=920
 
 [Containments][1][Applets][41][Configuration][General]
-launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/org.kde.konsole.desktop,file:///usr/local/share/applications/spotify.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/Zoom.desktop,file:///home/ykb5060/.local/share/applications/appimagekit-joplin.desktop
+launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/org.kde.konsole.desktop,file:///usr/local/share/applications/spotify.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/Zoom.desktop
 
 [Containments][1][ConfigDialog]
 DialogHeight=690
@@ -112,7 +101,7 @@ DialogWidth=920
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=1239
+ToolBoxButtonX=340
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=/usr/share/desktop-base/joy-inksplat-theme/wallpaper/
@@ -132,7 +121,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][20][Configuration]
-PreloadWeight=65
+PreloadWeight=100
 popupHeight=600
 popupWidth=528
 
@@ -143,7 +132,7 @@ plugin=org.kde.plasma.kickoff
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
 popupHeight=606
-popupWidth=765
+popupWidth=769
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -163,7 +152,7 @@ DialogHeight=690
 DialogWidth=920
 
 [Containments][2][Applets][32][Configuration][General]
-launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/org.kde.konsole.desktop,file:///usr/share/applications/org.kde.spectacle.desktop,file:///usr/local/share/applications/spotify.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/Zoom.desktop,file:///home/ykb5060/.local/share/applications/appimagekit-joplin.desktop,file:///home/ykb5060/.local/share/applications/zotero.desktop
+launcherUrls=file:///home/ykb5060/.local/share/applications/Firefox.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/code.desktop,file:///usr/share/applications/signal-desktop.desktop,file:///usr/share/applications/org.kde.konsole.desktop,file:///usr/share/applications/org.kde.spectacle.desktop,file:///usr/local/share/applications/spotify.desktop,file:///usr/share/applications/slack.desktop,file:///usr/share/applications/Zoom.desktop
 
 [Containments][2][Applets][4]
 immutability=1
@@ -228,14 +217,14 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][8][Applets][11][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][8][Applets][12]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][8][Applets][12][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][8][Applets][13]
 immutability=1
@@ -248,6 +237,9 @@ plugin=org.kde.plasma.devicenotifier
 [Containments][8][Applets][15]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][8][Applets][15][Configuration]
+PreloadWeight=55
 
 [Containments][8][Applets][16]
 immutability=1
@@ -275,20 +267,29 @@ PreloadWeight=55
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
+[Containments][8][Applets][19][Configuration]
+PreloadWeight=55
+
 [Containments][8][Applets][22]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
+[Containments][8][Applets][22][Configuration]
+PreloadWeight=34
+
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][8][Applets][23][Configuration]
+PreloadWeight=60
 
 [Containments][8][Applets][24]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=60
+PreloadWeight=80
 
 [Containments][8][Applets][25]
 immutability=1
@@ -316,7 +317,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][8][Applets][9][Configuration]
-PreloadWeight=60
+PreloadWeight=80
 
 [Containments][8][General]
 extraItems=org.kde.plasma.mediacontroller_plus,org.kde.plasma.clipboard,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.manage-inputmethod,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.kupapplet

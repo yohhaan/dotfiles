@@ -1,4 +1,3 @@
-.vscode/*
 *.o
 venv
 core

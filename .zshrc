@@ -14,14 +14,11 @@ export LC_ALL=en_US.utf-8
 export PATH="${PATH}:/usr/local/go/bin"
 
 #VPN
-export PATH="${PATH}:/home/ykb5060/.local/bin"
+export PATH="${PATH}:$HOME/.local/bin"
 alias vpncs="sudo openconnect --protocol=gp --user=beugin https://compsci.vpn.wisc.edu/gateway"
 alias vpnuw="sudo openconnect --protocol=gp --user=beugin https://uwmadison.vpn.wisc.edu/gateway"
 alias upwg_aws="sudo wg-quick up wg_aws"
 alias downwg_aws="sudo wg-quick down wg_aws"
-alias upwg_home="sudo wg-quick up wg_home"
-alias downwg_home="sudo wg-quick down wg_home"
-
 
 #Backup to golden snitch
 alias backup_to_goldensnitch="rsync -avP --delete ~/Pictures ~/Documents ~/Downloads ~/Videos goldensnitch:/media/yohan/HDD/backup_seeker"
@@ -107,7 +104,7 @@ plugins=(git docker docker-compose pass sudo screen colored-man-pages)
 source $ZSH/oh-my-zsh.sh
 source ~/.launch_docker
 source ~/.config/kde-plasmoids-workaround/kde-plasmoids-workaround
-source ~/.krohnkite 
+source ~/.krohnkite
 
 # User configuration
 
